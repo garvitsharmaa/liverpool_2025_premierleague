@@ -1,0 +1,9 @@
+@echo off
+echo Starting Premier League Analytics Dashboard...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting Streamlit app...
+streamlit run premier_league_analytics.py
+pause 
